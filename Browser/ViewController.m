@@ -30,7 +30,7 @@
     UIWebView* webView = [[UIWebView alloc]initWithFrame:frame];
     
     //2、设置属性：
-    
+
     webView.scalesPageToFit = YES;//自动对页面进行缩放以适应屏幕
     webView.detectsPhoneNumbers = YES;//自动检测网页上的电话号码，单击可以拨打
     webView.scrollView.bounces = NO;
@@ -43,6 +43,7 @@
     NSURL* url = [NSURL URLWithString:URLSTRING];//创建URL
     NSURLRequest* request = [NSURLRequest requestWithURL:url];//创建NSURLRequest
     [webView loadRequest:request];//加载
+    
     
     /*
     //也可以加载一个本地资源:
