@@ -45,6 +45,7 @@
     [webView loadRequest:request];//加载
     
     
+    // check
     /*
     //也可以加载一个本地资源:
     
